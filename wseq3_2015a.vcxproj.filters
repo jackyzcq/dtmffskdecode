@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AudioCaptureToRIFFWaveFile.cpp" />
+    <ClCompile Include="baudot.c" />
+    <ClCompile Include="databits_ascii.c" />
+    <ClCompile Include="databits_baudot.c" />
+    <ClCompile Include="databits_binary.c" />
+    <ClCompile Include="databits_callerid.c" />
+    <ClCompile Include="databits_uic.c" />
+    <ClCompile Include="DtmfDetector.cpp" />
+    <ClCompile Include="fsk.c" />
+    <ClCompile Include="FSKDetector.cpp" />
+    <ClCompile Include="simpleaudio-sndfile.c" />
+    <ClCompile Include="simpleaudio.c" />
+    <ClCompile Include="uic_codes.c" />
+    <ClCompile Include="debug.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="baudot.h" />
+    <ClInclude Include="databits.h" />
+    <ClInclude Include="DtmfDetector.hpp" />
+    <ClInclude Include="fftw3.h" />
+    <ClInclude Include="fsk.h" />
+    <ClInclude Include="FSKDetector.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="simpleaudio.h" />
+    <ClInclude Include="sndfile.h" />
+    <ClInclude Include="types_cpp.hpp" />
+    <ClInclude Include="uic_codes.h" />
+    <ClInclude Include="include\webrtc\modules\audio_processing\agc\agc.h">
+      <Filter>webrtc\modules\audio_processing\agc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="webrtc">
+      <UniqueIdentifier>{3e64cb98-e4ac-4bc4-9c0f-28e7863fc709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webrtc\modules">
+      <UniqueIdentifier>{ea21f9d2-9160-4cc8-b727-5917dafe0225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webrtc\modules\audio_processing">
+      <UniqueIdentifier>{5e8604d8-401b-442f-b2d6-7ec4fb522fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webrtc\modules\audio_processing\agc">
+      <UniqueIdentifier>{1b1ac22c-c70f-424a-9a8d-b623550eb0e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
